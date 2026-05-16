@@ -46,14 +46,14 @@ INSERT INTO Product(ID,Name)
 INSERT INTO Product(ID,Name)
 	VALUES (2, 'AwersomeProduct');
 
-INSERT INTO Warehouse (ID, WarehouseAmount, WarehouseAddress, CountryID)
-    VALUES (1, 1, 'Street-1', 1);
-INSERT INTO Warehouse (ID, WarehouseAmount, WarehouseAddress, CountryID)
-    VALUES (2, 2, 'Street-2', 2);
-INSERT INTO Warehouse (ID, WarehouseAmount,WarehouseName, WarehouseAddress, CountryID)
-    VALUES (3, 2, 'Warehouse-1', 'City-1', 1);
 INSERT INTO Warehouse (ID, WarehouseAmount, WarehouseName, WarehouseAddress, CountryID)
-    VALUES (4, 5, 'Warehouse-2', 'City-2', 2);
+VALUES (1, 2, 'Warehouse-1', 'City-1, Street-1', 1);
+INSERT INTO Warehouse (ID, WarehouseAmount, WarehouseName, WarehouseAddress, CountryID)
+VALUES (2, 5, 'Warehouse-2', 'City-2, Street-2', 2);
 
-    INSERT INTO ProductInventory (ID, ProductID, WarehouseID, Amount)
-VALUES (1, 1, 1, 10);
+INSERT INTO ProductInventory (ID, ProductID, WarehouseID, Amount)
+    VALUES (1, 1, 1, 10);
+INSERT INTO ProductInventory (ID, ProductID, WarehouseID, Amount)
+    VALUES (2, 1, 1, 20);
+INSERT INTO ProductInventory (ID, ProductID, WarehouseID, Amount)
+    VALUES (3, 2, 2, 20);
