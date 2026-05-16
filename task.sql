@@ -46,9 +46,9 @@ INSERT INTO Product(ID,Name)
 	VALUES (2, 'AwersomeProduct');
 
 INSERT INTO Warehouse (ID, WarehouseAmount, WarehouseAddress, CountryID)
-    VALUES (1, 1 , 'Street-1');
+    VALUES (1, 1, 'Street-1', 1);
 INSERT INTO Warehouse (ID, WarehouseAmount, WarehouseAddress, CountryID)
-    VALUES (2, 2, 'Street-2');
+    VALUES (2, 2, 'Street-2', 2);
 INSERT INTO Warehouse (WarehouseAmount,WarehouseName, WarehouseAddress, CountryID)
     VALUES (2, 'Warehouse-1', 'City-1', 1);
 INSERT INTO Warehouse (ID, WarehouseAmount, WarehouseName, WarehouseAddress, CountryID)
